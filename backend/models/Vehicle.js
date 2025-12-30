@@ -63,17 +63,17 @@ export default mongoose.model('Vehicle', vehicleSchema);
 //   "_id": {
 //     "$oid": "69130f0ccf6e032516a29f85"
 //   },
-//   "vehicleName": "Toyota RAV4",
-//   "owner": "John Doe",
-//   "category": "SUV",
-//   "pricePerDay": 85,
-//   "location": "Dhaka, Gulshan",
-//   "availability": "Available",
-//   "description": "Spacious and reliable SUV, perfect for families.",
-//   "coverImage": "https://images.unsplash.com/photo-1617469767053-d3b523a0b982?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1231",
-//   "userEmail": "john@example.com",
-//   "createdAt": {
-//     "$date": "2025-10-30T10:00:00.000Z"
+  // "vehicleName": "Toyota RAV4",
+  // "owner": "John Doe",
+  // "category": "SUV",
+  // "pricePerDay": 85,
+  // "location": "Dhaka, Gulshan",
+  // "availability": "Available",
+  // "description": "Spacious and reliable SUV, perfect for families.",
+  // "coverImage": "https://images.unsplash.com/photo-1617469767053-d3b523a0b982?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1231",
+  // "userEmail": "john@example.com",
+  // "createdAt": {
+  //   "$date": "2025-10-30T10:00:00.000Z"
 //   },
 //   "__v": 0,
 //   "updatedAt": {
