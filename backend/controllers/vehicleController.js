@@ -20,6 +20,7 @@ export const getAllVehicles = async (req, res) => {
     }
 
     const vehicles = await Vehicle.find(filter).sort({ createdAt: -1 });
+    console.log(vehicles);
     res.status(200).json(vehicles);
   } catch (error) {
     console.error('Error fetching all vehicles:', error); 

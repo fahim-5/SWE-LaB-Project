@@ -20,7 +20,7 @@ router.get('/user/:userEmail', getMyVehiclesByEmail);
 router.get('/:id', getVehicle);
 router.get('/', getAllVehicles); 
 
-router.post('/', authMiddleware, createVehicle);
+router.post('/',  createVehicle);
 router.put('/:id', authMiddleware, updateVehicle);
 router.delete('/:id', authMiddleware, deleteVehicle);
 
